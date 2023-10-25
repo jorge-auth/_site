@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles</title>
+    <description>Personal articles</description>
+    <link>http://jorge-auth.github.io/</link>
+    <atom:link href="http://jorge-auth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 13 Aug 2023 12:31:29 +0100</pubDate>
+    <lastBuildDate>Sun, 13 Aug 2023 12:31:29 +0100</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Checkpoints digital checklist</title>
+        <description>&lt;p&gt;Over the summer, I was invited to participate in a part-time involving the verification of watering systems. 
+Specifically, checking the cleanliness of water pump filters on a weekly basis. 
+Recognizing the importance of having the right tools for the job, I decided to develop a simple &lt;strong&gt;digital checklist&lt;/strong&gt; pad to streamline the inspection process and facilitate reporting. 
+My goal was to create a user-friendly interface that would allow me to mark the status of each location.&lt;/p&gt;
+
+&lt;p&gt;To achieve this, I designed the app to have geographical markers where I could easily indicate whether I had inspected a particular location. The app’s primary purpose was to provide a quick overview of the status without requiring detailed reporting. To ensure privacy and protect the locations of the systems, I implemented &lt;strong&gt;basic authentication&lt;/strong&gt; and stored the information in a &lt;strong&gt;cache&lt;/strong&gt; that automatically expired every week. This way, the app served as a convenient tool for monitoring the inspection process.&lt;/p&gt;
+
+&lt;p&gt;By opting for a simple approach, I was able to focus on the core functionality of the app—providing an efficient way to track the state of inspections. This streamlined process ensured that the information was easily accessible to other team members involved in the maintenance of the watering systems. With the digital checklist in place, it became effortless to communicate the status of each location, eliminating the need for constant reporting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/projects/checkpoint-app/checkpointsapp.png&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Jun 2023 18:01:00 +0100</pubDate>
+        <link>http://jorge-auth.github.io/project/2023/06/03/checkpoints-digital-checklist-copy.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/project/2023/06/03/checkpoints-digital-checklist-copy.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>DjangoCon Europe 2022</title>
+        <description>&lt;p&gt;DjangoCon 2022, the premier conference for Django, brought together developers from around the world to experience the Django community.&lt;/p&gt;
+
+&lt;p&gt;Held in the city of Porto, the event served as a platform for knowledge sharing, networking, and exploring the latest advancements in Django and web development.&lt;/p&gt;
+
+&lt;p&gt;The conference covered a wide range of topics, including engaging talks, discussions on libraries, scaling applications, adding security, hidden gems, and the power of Django-Admin.&lt;/p&gt;
+
+&lt;p&gt;During the event, I had the opportunity to attend over 35 talks and workshops spanning two days. The only sessions I missed were the django-girls hands-on coding sessions.&lt;/p&gt;
+
+&lt;p&gt;One interesting observation I made was that talks with more specific titles tended to be less engaging, while those with more obscure titles often turned out to be captivating and filled with practical insights.&lt;/p&gt;
+
+&lt;p&gt;Among the valuable advice I received during DjangoCon was a simple yet powerful mantra:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&apos;&apos;&apos; Always be typing. &apos;&apos;&apos; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Although I don’t take it literally, to avoid burnout, it lingers in my mind as a reminder to constantly challenge myself and keep up with my coding skills.&lt;/p&gt;
+
+&lt;p&gt;A potential useful discovery at DjangoCon 2022 was the demo of a debugging tool called &lt;a href=&quot;https://kolo.app/&quot;&gt;&lt;strong&gt;Kolo for django&lt;/strong&gt;&lt;/a&gt;. This framework integrates with the code editor and captures Django requests, enabling professional debugging of HTTP calls and their visualization.&lt;/p&gt;
+
+&lt;p&gt;Another highlight was the introduction of &lt;strong&gt;diatáxis&lt;/strong&gt;, a framework for technical documentation authoring. It was noted as a plus to various fields of engineering, including computer science.
+Compared to a good cookbook.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/projects/djangocon22/djangocon2022.jpg&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Nov 2022 17:01:00 +0000</pubDate>
+        <link>http://jorge-auth.github.io/event/2022/11/25/djangocon-2022.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/event/2022/11/25/djangocon-2022.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Road to AWS certifications</title>
+        <description>&lt;p&gt;When I first decided to get an AWS certification, I was determined to succeed. 
+However, I quickly felt cautious by the vast array of services and study materials available. Important to note that I didn’t find the tests easy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2019/09/20/Certifications_1.png&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To navigate this challenge, I turned to forums and subreddits to find the most effective study strategies. Since I was personally funding my certification journey and had only one chance to pass the exams, I placed great emphasis on my preparation.&lt;/p&gt;
+
+&lt;p&gt;During this process, I discovered that the best approach was to take practice tests and create written annotations with responses to frequently asked questions. This method resembled how I had studied for my driving license.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, hands-on deployment or practice, such as deploying images to EC2 or creating diagrams in CloudFormation, was not necessary. Instead, I opted for a high-quality, affordable education platform that offered practice tests emulating the duration and difficulty of the exams. I chose &lt;strong&gt;Whizlabs Online Certification Training Courses for AWS Exams&lt;/strong&gt; (no sponsorship).&lt;/p&gt;
+
+&lt;p&gt;Once I consistently scored above the passing mark of 75% on these practice tests, I scheduled my exams. Although I should have aimed for a perfect score, I believed that 80% would suffice.&lt;/p&gt;
+
+&lt;p&gt;It took me one month of study from September 15th to October 15th, 2020, to achieve the Cloud Practitioner level. 
+Another month of study from October 15th to November 15th, 2020, led me to the Solutions Architect level. 
+I dedicated one more month, from November 15th to December 15th, 2020, for the Professional level. Unfortunately, I fell short of the minimum passing score by 69% and they asked 75%.&lt;/p&gt;
+
+&lt;p&gt;The percentage grade is balanced based on the performance of all test takers to assess the level of difficulty. Therefore, while I would have felt proud to have the green checkmark of a specialist, the pass or fail outcome of the exams is statistically determined, which can leave a sour taste. An exam with easy questions can result in low scores if everyone performs well on the difficult questions. Conversely, a challenging exam format can lead to higher scores. Surprisingly, I performed well in tests I thought I wouldn’t pass, particularly the first two.&lt;/p&gt;
+
+&lt;p&gt;Given the extra time I had during the 2020 pandemic, I was able to dedicate myself fully to this endeavor. If I had been working at the time, I believe I would have &lt;strong&gt;needed at least six months of preparation for each test&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the end, I decided not to pursue this path further. It became a test of my capabilities. However, this experience enhanced my ability to interpret technical texts and focus on tricky contextual questions, as this &lt;strong&gt;American-style exam format&lt;/strong&gt; requires precise answers.&lt;/p&gt;
+
+&lt;p&gt;Obtaining AWS certifications served as a complement to my practical knowledge in Google Cloud. While I was initially intrigued by the market, I now understand that these certifications require ongoing renewal, which may not align with someone who is not directly employed in an AWS infrastructure role. Therefore, I would only consider retaking these tests if I were sponsored and convinced that the investment would be worthwhile.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 07 Jun 2020 18:01:00 +0100</pubDate>
+        <link>http://jorge-auth.github.io/certification/2020/06/07/road-to-aws.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/certification/2020/06/07/road-to-aws.html</guid>
+        
+        
+        <category>certification</category>
+        
+      </item>
+    
+      <item>
+        <title>GDG devfest Lisbon, 2017</title>
+        <description>&lt;p&gt;While browsing meetup.com, I stumbled upon the GDG DevFest Lisbon. The description promised a day of connecting with other developers.&lt;/p&gt;
+
+&lt;p&gt;I entered a packed auditorium where most of the talks I attended were about artificial intelligence. At the time, TensorFlow was the trending standard library for A.I.&lt;/p&gt;
+
+&lt;p&gt;The main talk focused on the ethical consequences of artificial intelligence. The moderator was a blogger &amp;amp; Software Engineer, and there were three debaters: a philosopher, a lawyer, and a software engineer.&lt;/p&gt;
+
+&lt;p&gt;The most remarkable thing I remember was a question from an audience member — a Portuguese A.I. researcher who worked in China and had traveled to the event. He said something similar to this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;&quot;&quot;
+Nowadays most of the apps and web applications are quite simple...(enumerate some)... They all consist of rows of input forms.
+Artificial intelligence is a far more complex field.
+&quot;&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;That comment can be considered brash, but it impacted the way I see technology. Indeed, it’s correct that most frontends are like that, although the backend is a different story. I would go further and actually say that &lt;strong&gt;most of the successfull applications are basically a search box&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/projects/gdg17/search.png&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At least the main premise of the internet is &lt;strong&gt;“how to find the information”&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 09 Dec 2017 17:01:00 +0000</pubDate>
+        <link>http://jorge-auth.github.io/event/2017/12/09/google-devfest-2017-Lisbon.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/event/2017/12/09/google-devfest-2017-Lisbon.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>MTI, Lisbon IOT Week 2015</title>
+        <description>&lt;p&gt;In 2015, the UAlg research team attended the IOT Week in Lisbon to showcase our Microgrid Manager prototype. 
+We created a miniature Microgrid panel at our booth, complete with sensor-equipped plugs and an aggregator computer for scheduling:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/projects/MTI_images/Escalonamento.jpg&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Visitors were drawn to the system’s potential for commercial applications. We demonstrated how the technology 
+could regulate energy consumption and showed live on/off status using 6lowpan electrical plugs.&lt;/p&gt;
+
+&lt;p&gt;The project also capable of adapting the system to communicate with HVAC and Modbus systems which was not demonstrated. 
+Me and the team leader on the right, bellow:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/projects/MTI_images/IoTWeek.jpg&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Close to our booth, we met a researcher from Sweden with a similar system that used a mobile app for device interaction. In contrast, our system was autonomous and made decisions for optimal energy saving based on renewable and load consumption profiles.&lt;/p&gt;
+
+&lt;p&gt;The talks around the event were about the upcoming revolution in 2020 with a surge in IoT device numbers. 
+Turns out that after 2020, the revolution turned out to be quieter, with sensors often going unnoticed in our day to day.
+That’s probably the intent of IoT, that &lt;strong&gt;great technology becomes invisible&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;There were numerous smart city M2M and H2M applications. Caught my attention the &lt;strong&gt;LPWAN network&lt;/strong&gt; applications, which use citizen bandwidth to enable long-range, 
+ low-power data transmission. 
+ Despite the limitations of free bandwidth and noise, these networks, paired with dedicated cloud portals and company antennas, proves to be promising for connecting devices over long distances. I stay tuned to see what the new applications will bring for the future.&lt;/p&gt;
+
+&lt;!---Those are the areas were I take more juices out of the IT pratice.---&gt;
+&lt;!---Other areas of interest are more like a wannabe thing. I am curious ---&gt;
+
+</description>
+        <pubDate>Sun, 07 Jun 2015 18:01:00 +0100</pubDate>
+        <link>http://jorge-auth.github.io/event/2015/06/07/mti.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/event/2015/06/07/mti.html</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Diy workshop, converting an ATX power source into a bench power supply</title>
+        <description>&lt;p&gt;Fresh in the world of electronics, with shaky soldering skills, I attended the workshop at the EEE lab to enhance my practical knowledge. 
+In my opinion, this project of transforming an ATX power supply into an electronics utility serves as a great entry point. That’s precisely why I was there – to learn the basics.&lt;/p&gt;
+
+&lt;p&gt;The project consists of separating the cables and soldering them to banana connectors, 
+paying attention to the supply voltages of the ATX, which include 
++12V, +5V, +3.3V, GND, -3.3V, -5V, and -12V. 
+To achieve a differential of 24V, the trick lies in combining the -12V with the 12V.&lt;/p&gt;
+
+&lt;p&gt;During the workshop, we effectively interconnected all the grounds with a shunt and obtained positive and negative supplies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/projects/atx_workshop/workshopATX.jpg&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 07 Jun 2012 18:01:00 +0100</pubDate>
+        <link>http://jorge-auth.github.io/workshop/2012/06/07/workshop-atx.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/workshop/2012/06/07/workshop-atx.html</guid>
+        
+        
+        <category>workshop</category>
+        
+      </item>
+    
+  </channel>
+</rss>

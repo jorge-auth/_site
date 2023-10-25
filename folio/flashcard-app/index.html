@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <style>
+
+
+
+
+            body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            border: 1px solid black;
+            width: 400px;
+            height: 230px;
+            box-shadow: 5px 10px #888888;
+            border-radius: 25px;
+            padding: 20px;
+            text-align: center;
+            transform: translateY(50%);
+            background-color: #ffffff;
+        }
+
+        .cardtitle {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .cardbody {
+            margin: 10px 0;
+        }
+
+        .langs {
+            margin-right: 10px;
+        }
+
+        #addform {
+            border: none;
+            background-color: transparent;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 3;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 400px;
+            position: relative;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        label,
+        p {
+            display: block;
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+
+        </style>
+    </head>
+
+
+    <body>
+        <label for="langs" class="langs"> Language </label>
+
+        <select id="langs" class="langs" onchange="bbb();">
+          <option selected value="en"> English </option>
+          <option value="fr"> French </option>
+
+        </select> 
+
+        <button id="addform"> + </button>
+
+        <div class="container">
+            <div id="flashcard" class="card" onclick="aaa();">
+                <div id="cardtitle" class="cardtitle"></div>
+                <div id="cardbody" class="cardbody">
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p> Add a new card </p>
+              <form>
+                    <select id="langs2">
+                        <option selected value="en"> English </option>
+                        <option value="fr"> French </option>
+                    </select> 
+                    </br>
+
+                    <label> Expression </label>
+                    <input id="expr"></input>
+                    </br>
+                    
+
+                    <label> Description </label>
+                    <input id="desc"></input>
+                    </br>
+
+              </form>
+            </div>
+          
+          </div>
+
+    </body>
+
+
+    <script src="main.min.js"></script>
+</html>
