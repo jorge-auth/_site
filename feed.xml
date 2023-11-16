@@ -5,9 +5,34 @@
     <description>Personal articles</description>
     <link>http://jorge-auth.github.io/</link>
     <atom:link href="http://jorge-auth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Nov 2023 18:10:16 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Nov 2023 18:10:16 +0000</lastBuildDate>
+    <pubDate>Thu, 16 Nov 2023 19:23:47 +0000</pubDate>
+    <lastBuildDate>Thu, 16 Nov 2023 19:23:47 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Overview of codeforces free education course</title>
+        <description>&lt;p&gt;Thoughts and considerations after completing the free education course on &lt;strong&gt;codeforces&lt;/strong&gt;.
+About algorithms and data structures, it is comprised by the topics of &lt;strong&gt;suffix arrays&lt;/strong&gt;, &lt;strong&gt;segment trees&lt;/strong&gt;, &lt;strong&gt;binary search&lt;/strong&gt;, &lt;strong&gt;sets unions&lt;/strong&gt; and &lt;strong&gt;two pointers method&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I started coding c++ in my part-time, diving briefly into the world of &lt;strong&gt;competitive programming&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;There is a laziness that might happen while coding in Python, which is my professional language of choice.
+Too many libraries that solve difficult problems leads to that. Although not fault of the language I think its not ok to develop &lt;strong&gt;O(n)&lt;/strong&gt; 1-for cycle or &lt;strong&gt;O(n^2)&lt;/strong&gt; 2-for cycle time complexity solutions. Just for the sake of becoming a better programmer just like a person that wants to be a better person type of thinking.&lt;/p&gt;
+
+&lt;p&gt;I spent a month fortifying the fundamentals. Previously in my master thesis I worked with &lt;strong&gt;genetic algorithms&lt;/strong&gt;.  I studied &lt;strong&gt;graphs&lt;/strong&gt;, &lt;strong&gt;single lists&lt;/strong&gt;, &lt;strong&gt;double linked lists&lt;/strong&gt;, &lt;strong&gt;trees&lt;/strong&gt;, in my university years. And here and there I am diving into some algorithm study to add it to my toolbelt.&lt;/p&gt;
+
+&lt;p&gt;The direct relation between &lt;strong&gt;time complexity and data structures&lt;/strong&gt; is straightforward. Divising a problem allows to partition the problem and reduce the time towards the &lt;strong&gt;O(log n)&lt;/strong&gt; curve. And the rest is history.&lt;/p&gt;
+
+&lt;p&gt;With 2023 christmas approaching I will continue crocheting this algorithm and data structures thingy. Its not the same as building a product, or showing off but brings internal satisfaction.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Nov 2023 17:01:00 +0000</pubDate>
+        <link>http://jorge-auth.github.io/course/2023/11/15/overview-codeforces-free-education-course.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/course/2023/11/15/overview-codeforces-free-education-course.html</guid>
+        
+        
+        <category>course</category>
+        
+      </item>
     
       <item>
         <title>Checkpoints digital checklist</title>
