@@ -3,31 +3,29 @@
   <channel>
     <title>Articles</title>
     <description>Personal articles</description>
-    <link>http://jorge-auth.github.io/</link>
-    <atom:link href="http://jorge-auth.github.io/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Nov 2023 19:23:47 +0000</pubDate>
-    <lastBuildDate>Thu, 16 Nov 2023 19:23:47 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/sitemap.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 17 Nov 2023 15:29:30 +0000</pubDate>
+    <lastBuildDate>Fri, 17 Nov 2023 15:29:30 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Overview of codeforces free education course</title>
-        <description>&lt;p&gt;Thoughts and considerations after completing the free education course on &lt;strong&gt;codeforces&lt;/strong&gt;.
-About algorithms and data structures, it is comprised by the topics of &lt;strong&gt;suffix arrays&lt;/strong&gt;, &lt;strong&gt;segment trees&lt;/strong&gt;, &lt;strong&gt;binary search&lt;/strong&gt;, &lt;strong&gt;sets unions&lt;/strong&gt; and &lt;strong&gt;two pointers method&lt;/strong&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;Thoughts and considerations after completing the free education course on &lt;strong&gt;Codeforces&lt;/strong&gt;. About algorithms and data structures, it is comprised of topics such as &lt;strong&gt;suffix arrays&lt;/strong&gt;, &lt;strong&gt;segment trees&lt;/strong&gt;, &lt;strong&gt;binary search&lt;/strong&gt;, &lt;strong&gt;sets unions&lt;/strong&gt;, and the &lt;strong&gt;two-pointers method&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;I started coding c++ in my part-time, diving briefly into the world of &lt;strong&gt;competitive programming&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I started coding in C++ in my part-time, diving briefly into the world of &lt;strong&gt;competitive programming&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;There is a laziness that might happen while coding in Python, which is my professional language of choice.
-Too many libraries that solve difficult problems leads to that. Although not fault of the language I think its not ok to develop &lt;strong&gt;O(n)&lt;/strong&gt; 1-for cycle or &lt;strong&gt;O(n^2)&lt;/strong&gt; 2-for cycle time complexity solutions. Just for the sake of becoming a better programmer just like a person that wants to be a better person type of thinking.&lt;/p&gt;
+&lt;p&gt;There is a laziness that might happen while coding in Python, which is my professional language of choice. Too many libraries that solve difficult problems lead to that. Although not the fault of the language, I think it’s not okay to develop &lt;strong&gt;O(n)&lt;/strong&gt; 1-for cycle or &lt;strong&gt;O(n^2)&lt;/strong&gt; 2-for cycle time complexity solutions.&lt;/p&gt;
 
-&lt;p&gt;I spent a month fortifying the fundamentals. Previously in my master thesis I worked with &lt;strong&gt;genetic algorithms&lt;/strong&gt;.  I studied &lt;strong&gt;graphs&lt;/strong&gt;, &lt;strong&gt;single lists&lt;/strong&gt;, &lt;strong&gt;double linked lists&lt;/strong&gt;, &lt;strong&gt;trees&lt;/strong&gt;, in my university years. And here and there I am diving into some algorithm study to add it to my toolbelt.&lt;/p&gt;
+&lt;p&gt;I spent a month strengthening the fundamentals. Previously, in my master’s thesis, I worked with &lt;strong&gt;genetic algorithms&lt;/strong&gt;. I studied &lt;strong&gt;graphs&lt;/strong&gt;, &lt;strong&gt;linked lists&lt;/strong&gt;, &lt;strong&gt;double-linked lists&lt;/strong&gt;, and &lt;strong&gt;tree structures&lt;/strong&gt; during my university years. Here and there, I am diving into some algorithm study to add it to my toolbelt.&lt;/p&gt;
 
-&lt;p&gt;The direct relation between &lt;strong&gt;time complexity and data structures&lt;/strong&gt; is straightforward. Divising a problem allows to partition the problem and reduce the time towards the &lt;strong&gt;O(log n)&lt;/strong&gt; curve. And the rest is history.&lt;/p&gt;
+&lt;p&gt;The direct relation between time complexity and data structures is straightforward. Devising a solution involves partitioning the problem and reducing the time towards the O(log n) curve. And the rest is history.&lt;/p&gt;
 
-&lt;p&gt;With 2023 christmas approaching I will continue crocheting this algorithm and data structures thingy. Its not the same as building a product, or showing off but brings internal satisfaction.&lt;/p&gt;
+&lt;p&gt;With Christmas 2023 approaching, I will continue solving algorithm and data structures challenges. It’s not the same as building a product, but it improves my critical thinking and problem solving.&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Nov 2023 17:01:00 +0000</pubDate>
-        <link>http://jorge-auth.github.io/course/2023/11/15/overview-codeforces-free-education-course.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/course/2023/11/15/overview-codeforces-free-education-course.html</guid>
+        <link>http://localhost:4000/course/2023/11/15/overview-codeforces-free-education-course.html</link>
+        <guid isPermaLink="true">http://localhost:4000/course/2023/11/15/overview-codeforces-free-education-course.html</guid>
         
         
         <category>course</category>
@@ -48,8 +46,8 @@ My goal was to create a user-friendly interface that would allow me to mark the 
 &lt;p&gt;&lt;img src=&quot;/static/projects/checkpoint-app/checkpointsapp.png&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Jun 2023 18:01:00 +0100</pubDate>
-        <link>http://jorge-auth.github.io/project/2023/06/03/checkpoints-digital-checklist-copy.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/project/2023/06/03/checkpoints-digital-checklist-copy.html</guid>
+        <link>http://localhost:4000/project/2023/06/03/checkpoints-digital-checklist-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2023/06/03/checkpoints-digital-checklist-copy.html</guid>
         
         
         <category>project</category>
@@ -83,8 +81,8 @@ Compared to a good cookbook.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/static/projects/djangocon22/djangocon2022.jpg&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Nov 2022 17:01:00 +0000</pubDate>
-        <link>http://jorge-auth.github.io/event/2022/11/25/djangocon-2022.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/event/2022/11/25/djangocon-2022.html</guid>
+        <link>http://localhost:4000/event/2022/11/25/djangocon-2022.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/2022/11/25/djangocon-2022.html</guid>
         
         
         <category>event</category>
@@ -120,8 +118,8 @@ I dedicated one more month, from November 15th to December 15th, 2020, for the P
 
 </description>
         <pubDate>Sun, 07 Jun 2020 18:01:00 +0100</pubDate>
-        <link>http://jorge-auth.github.io/certification/2020/06/07/road-to-aws.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/certification/2020/06/07/road-to-aws.html</guid>
+        <link>http://localhost:4000/certification/2020/06/07/road-to-aws.html</link>
+        <guid isPermaLink="true">http://localhost:4000/certification/2020/06/07/road-to-aws.html</guid>
         
         
         <category>certification</category>
@@ -152,8 +150,8 @@ Artificial intelligence is a far more complex field.
 
 </description>
         <pubDate>Sat, 09 Dec 2017 17:01:00 +0000</pubDate>
-        <link>http://jorge-auth.github.io/event/2017/12/09/google-devfest-2017-Lisbon.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/event/2017/12/09/google-devfest-2017-Lisbon.html</guid>
+        <link>http://localhost:4000/event/2017/12/09/google-devfest-2017-Lisbon.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/2017/12/09/google-devfest-2017-Lisbon.html</guid>
         
         
         <category>event</category>
@@ -190,8 +188,8 @@ That’s probably the intent of IoT, that &lt;strong&gt;great technology becomes
 
 </description>
         <pubDate>Sun, 07 Jun 2015 18:01:00 +0100</pubDate>
-        <link>http://jorge-auth.github.io/event/2015/06/07/mti.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/event/2015/06/07/mti.html</guid>
+        <link>http://localhost:4000/event/2015/06/07/mti.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/2015/06/07/mti.html</guid>
         
         
         <category>event</category>
@@ -214,8 +212,8 @@ To achieve a differential of 24V, the trick lies in combining the -12V with the 
 
 </description>
         <pubDate>Thu, 07 Jun 2012 18:01:00 +0100</pubDate>
-        <link>http://jorge-auth.github.io/workshop/2012/06/07/workshop-atx.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/workshop/2012/06/07/workshop-atx.html</guid>
+        <link>http://localhost:4000/workshop/2012/06/07/workshop-atx.html</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2012/06/07/workshop-atx.html</guid>
         
         
         <category>workshop</category>
