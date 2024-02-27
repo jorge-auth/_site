@@ -161,3 +161,9 @@ div.col-sm-3 div.profile-about {
     margin-top: 30px;
   }
 }
+
+
+/* added to the initial css by me */
+* {
+  font-size: 22px !important;
+}

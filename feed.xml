@@ -5,8 +5,8 @@
     <description>Personal articles</description>
     <link>http://jorge-auth.github.io/</link>
     <atom:link href="http://jorge-auth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Nov 2023 15:29:30 +0000</pubDate>
-    <lastBuildDate>Fri, 17 Nov 2023 15:29:30 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Feb 2024 13:59:53 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Feb 2024 13:59:53 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -29,28 +29,6 @@
         
         
         <category>course</category>
-        
-      </item>
-    
-      <item>
-        <title>Checkpoints digital checklist</title>
-        <description>&lt;p&gt;Over the summer, I was invited to participate in a part-time involving the verification of watering systems. 
-Specifically, checking the cleanliness of water pump filters on a weekly basis. 
-Recognizing the importance of having the right tools for the job, I decided to develop a simple &lt;strong&gt;digital checklist&lt;/strong&gt; pad to streamline the inspection process and facilitate reporting. 
-My goal was to create a user-friendly interface that would allow me to mark the status of each location.&lt;/p&gt;
-
-&lt;p&gt;To achieve this, I designed the app to have geographical markers where I could easily indicate whether I had inspected a particular location. The app’s primary purpose was to provide a quick overview of the status without requiring detailed reporting. To ensure privacy and protect the locations of the systems, I implemented &lt;strong&gt;basic authentication&lt;/strong&gt; and stored the information in a &lt;strong&gt;cache&lt;/strong&gt; that automatically expired every week. This way, the app served as a convenient tool for monitoring the inspection process.&lt;/p&gt;
-
-&lt;p&gt;By opting for a simple approach, I was able to focus on the core functionality of the app—providing an efficient way to track the state of inspections. This streamlined process ensured that the information was easily accessible to other team members involved in the maintenance of the watering systems. With the digital checklist in place, it became effortless to communicate the status of each location, eliminating the need for constant reporting.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/static/projects/checkpoint-app/checkpointsapp.png&quot; alt=&quot;image tooltip here&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 03 Jun 2023 18:01:00 +0100</pubDate>
-        <link>http://jorge-auth.github.io/project/2023/06/03/checkpoints-digital-checklist-copy.html</link>
-        <guid isPermaLink="true">http://jorge-auth.github.io/project/2023/06/03/checkpoints-digital-checklist-copy.html</guid>
-        
-        
-        <category>project</category>
         
       </item>
     
