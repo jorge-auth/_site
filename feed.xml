@@ -5,9 +5,49 @@
     <description>Personal articles</description>
     <link>http://jorge-auth.github.io/</link>
     <atom:link href="http://jorge-auth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Feb 2024 13:59:53 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Feb 2024 13:59:53 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Aug 2024 16:01:21 +0100</pubDate>
+    <lastBuildDate>Tue, 20 Aug 2024 16:01:21 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Birdkeeper, goes opensource</title>
+        <description>&lt;p&gt;A decade goes by since I started coding professionally. Several times I was asked
+“Have you contributed to opensource?”&lt;/p&gt;
+
+&lt;p&gt;In my mind, this was a big boogeyman. What if I am not good enough? What if I am giving away all my gold?
+None of those questions survive the stretch of time and the increasing degrees of new understanding.
+I thought that I had to produce groundbreaking code, that would be included in the libraries.&lt;/p&gt;
+
+&lt;p&gt;By asking simple questions, I discovered along the journey that the opensource community is accepting of any code to be deployed.
+A 5-star ranking system establishes the popularity and visibility of the repository.&lt;/p&gt;
+
+&lt;p&gt;Realizing that, I checked the oldest codebase that I had in usage to publish. It is the oldest Python script that I still use to this day, called birkeeper. It is also the most outdated and unpolished one.&lt;/p&gt;
+
+&lt;p&gt;I keep several encrypted hard drives that contain important information with copies of each other and that need constant backups to avoid
+losing information due to damaged disks. They are encrypted using LUKS encryption, according to the tool.
+crypsetup, for privacy reasons because if I lose a hard drive, I don’t want someone else to read the info.&lt;/p&gt;
+
+&lt;p&gt;The commands to manage are long. Therefore, years ago I decided to write a quick script to manage those disks more easily. For the purpose of making backups safely using rsync and
+to mount and unmount disks without having to check where I saved my encryption key.
+I chose bird taxonomical names to label my physical hard drives, so then I can manage the physical disks better (Birds have one of the largest taxonomical ranges). Any hard drive has a UUID unique identifier, which allows to guarantee that the disc is unique. I associate this UUID reference to a variable of a bird name, and instead of calling the UUID, I select my discs by bird name. I have an eagle, a bluejay, a falcon, a hoopoe, a canary, and a chicken.&lt;/p&gt;
+
+&lt;p&gt;This code is very personal and probably has very little use for others.&lt;/p&gt;
+
+&lt;p&gt;Upon deciding to publish it, I thought of polishing the code to have no flaws. In my mind, I thought I would create tests and document the script with the OPENAPI specification (swagger), use linters, and replace argparse by the decorator @click to make the code more readable. However this would waste weeks just to look good, for an invisible entity that doesnt exist.
+However, I realized that my mission was to deliver something into the open quick and effectively, and therefore I just decided to be vulnerable and publish it in the state that I use the script, without cosmetics or perfectionism.&lt;/p&gt;
+
+&lt;p&gt;It’s been very useful to me for many years, and I will ask further what could become a better approach to my current workflow of managing my personal data.
+For the moment, it represents opensource achievement unlocked! It was as simple as using the command “twine upload” to push a package into test.pypi.org.
+Publishing to opensource is as difficult as doing a “git push” to github. &lt;a href=&quot;https://test.pypi.org/project/birdkeeper/&quot;&gt;Follow here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Aug 2024 18:01:00 +0100</pubDate>
+        <link>http://jorge-auth.github.io/python/2024/08/19/Birdkeeper-goes-opensource.html</link>
+        <guid isPermaLink="true">http://jorge-auth.github.io/python/2024/08/19/Birdkeeper-goes-opensource.html</guid>
+        
+        
+        <category>python</category>
+        
+      </item>
     
       <item>
         <title>Overview of codeforces free education course</title>

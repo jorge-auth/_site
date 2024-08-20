@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Overview of codeforces free education course - Articles
+      Birdkeeper, goes opensource - Articles
     </title>
     <meta name="author" content="Jorge E." />
     <meta
       name="description"
-      content="Overview of codeforces free education course"
+      content="Birdkeeper, goes opensource"
     />
     <meta
       name="keywords"
-      content="Overview of codeforces free education course, Articles, course"
+      content="Birdkeeper, goes opensource, Articles, python"
     />
     <link
       rel="alternate"
@@ -26,20 +26,20 @@
     <meta content="Articles" property="og:site_name" />
 
      
-    <meta content="Overview of codeforces free education course" property="og:title" />
+    <meta content="Birdkeeper, goes opensource" property="og:title" />
     <meta content="article" property="og:type" />
      
     <meta content="Personal articles" property="og:description" />
      
-    <meta content="http://jorge-auth.github.io/course/2023/11/15/overview-codeforces-free-education-course.html" property="og:url" />
+    <meta content="http://jorge-auth.github.io/python/2024/08/19/Birdkeeper-goes-opensource.html" property="og:url" />
      
     <meta
-      content="2023-11-15T17:01:00+00:00"
+      content="2024-08-19T18:01:00+01:00"
       property="article:published_time"
     />
     <meta content="http://jorge-auth.github.io/about/" property="article:author" />
        
-    <meta content="course" property="article:section" />
+    <meta content="python" property="article:section" />
         
 
     <meta name="twitter:card" content="summary" />
@@ -47,9 +47,9 @@
     <meta name="twitter:creator" content="@github.io" />
 
     
-    <meta name="twitter:title" content="Overview of codeforces free education course" />
+    <meta name="twitter:title" content="Birdkeeper, goes opensource" />
      
-    <meta name="twitter:url" content="http://jorge-auth.github.io/course/2023/11/15/overview-codeforces-free-education-course.html" />
+    <meta name="twitter:url" content="http://jorge-auth.github.io/python/2024/08/19/Birdkeeper-goes-opensource.html" />
      
     <meta name="twitter:description" content="Personal articles" />
      
@@ -130,31 +130,48 @@
       </div>
       <div class="col-sm-8 col-offset-1 main-layout">
         <header class="post-header">
-  <h1 class="post-title">Overview of codeforces free education course</h1>
+  <h1 class="post-title">Birdkeeper, goes opensource</h1>
 </header>
 
-<span class="time">15 Nov 2023</span>
+<span class="time">19 Aug 2024</span>
 
 <span class="categories">
   &raquo; <a
-    href="/category/course"
-    >course</a
+    href="/category/python"
+    >python</a
   >
 </span>
 
 
 <div class="content">
-  <div class="post"><p>Thoughts and considerations after completing the free education course on <strong>Codeforces</strong>. About algorithms and data structures, it is comprised of topics such as <strong>suffix arrays</strong>, <strong>segment trees</strong>, <strong>binary search</strong>, <strong>sets unions</strong>, and the <strong>two-pointers method</strong>.</p>
+  <div class="post"><p>A decade goes by since I started coding professionally. Several times I was asked
+“Have you contributed to opensource?”</p>
 
-<p>I started coding in C++ in my part-time, diving briefly into the world of <strong>competitive programming</strong>.</p>
+<p>In my mind, this was a big boogeyman. What if I am not good enough? What if I am giving away all my gold?
+None of those questions survive the stretch of time and the increasing degrees of new understanding.
+I thought that I had to produce groundbreaking code, that would be included in the libraries.</p>
 
-<p>There is a laziness that might happen while coding in Python, which is my professional language of choice. Too many libraries that solve difficult problems lead to that. Although not the fault of the language, I think it’s not okay to develop <strong>O(n)</strong> 1-for cycle or <strong>O(n^2)</strong> 2-for cycle time complexity solutions.</p>
+<p>By asking simple questions, I discovered along the journey that the opensource community is accepting of any code to be deployed.
+A 5-star ranking system establishes the popularity and visibility of the repository.</p>
 
-<p>I spent a month strengthening the fundamentals. Previously, in my master’s thesis, I worked with <strong>genetic algorithms</strong>. I studied <strong>graphs</strong>, <strong>linked lists</strong>, <strong>double-linked lists</strong>, and <strong>tree structures</strong> during my university years. Here and there, I am diving into some algorithm study to add it to my toolbelt.</p>
+<p>Realizing that, I checked the oldest codebase that I had in usage to publish. It is the oldest Python script that I still use to this day, called birkeeper. It is also the most outdated and unpolished one.</p>
 
-<p>The direct relation between time complexity and data structures is straightforward. Devising a solution involves partitioning the problem and reducing the time towards the O(log n) curve. And the rest is history.</p>
+<p>I keep several encrypted hard drives that contain important information with copies of each other and that need constant backups to avoid
+losing information due to damaged disks. They are encrypted using LUKS encryption, according to the tool.
+crypsetup, for privacy reasons because if I lose a hard drive, I don’t want someone else to read the info.</p>
 
-<p>With Christmas 2023 approaching, I will continue solving algorithm and data structures challenges. It’s not the same as building a product, but it improves my critical thinking and problem solving.</p>
+<p>The commands to manage are long. Therefore, years ago I decided to write a quick script to manage those disks more easily. For the purpose of making backups safely using rsync and
+to mount and unmount disks without having to check where I saved my encryption key.
+I chose bird taxonomical names to label my physical hard drives, so then I can manage the physical disks better (Birds have one of the largest taxonomical ranges). Any hard drive has a UUID unique identifier, which allows to guarantee that the disc is unique. I associate this UUID reference to a variable of a bird name, and instead of calling the UUID, I select my discs by bird name. I have an eagle, a bluejay, a falcon, a hoopoe, a canary, and a chicken.</p>
+
+<p>This code is very personal and probably has very little use for others.</p>
+
+<p>Upon deciding to publish it, I thought of polishing the code to have no flaws. In my mind, I thought I would create tests and document the script with the OPENAPI specification (swagger), use linters, and replace argparse by the decorator @click to make the code more readable. However this would waste weeks just to look good, for an invisible entity that doesnt exist.
+However, I realized that my mission was to deliver something into the open quick and effectively, and therefore I just decided to be vulnerable and publish it in the state that I use the script, without cosmetics or perfectionism.</p>
+
+<p>It’s been very useful to me for many years, and I will ask further what could become a better approach to my current workflow of managing my personal data.
+For the moment, it represents opensource achievement unlocked! It was as simple as using the command “twine upload” to push a package into test.pypi.org.
+Publishing to opensource is as difficult as doing a “git push” to github. <a href="https://test.pypi.org/project/birdkeeper/">Follow here</a>.</p>
 </div>
   <div class="share-page">
   <span style="float: left">Share this on &rarr;&nbsp;&nbsp;</span>
@@ -183,7 +200,7 @@
   <!-- Facebook -->
   <div
     class="fb-share-button"
-    data-href="http://jorge-auth.github.io/course/2023/11/15/overview-codeforces-free-education-course.html"
+    data-href="http://jorge-auth.github.io/python/2024/08/19/Birdkeeper-goes-opensource.html"
     data-layout="button_count"
     style="position: relative; top: -8px; left: 3px"
   ></div>
@@ -210,12 +227,10 @@
 
 <div class="PageNavigation">
   
-  <a class="prev" href="/event/2022/11/25/djangocon-2022.html"
-    >&laquo; DjangoCon Europe 2022</a
+  <a class="prev" href="/course/2023/11/15/overview-codeforces-free-education-course.html"
+    >&laquo; Overview of codeforces free education course</a
   >
    
-  <a class="next" href="/python/2024/08/19/Birdkeeper-goes-opensource.html">Birdkeeper, goes opensource &raquo;</a>
-  
 </div>
 
 <div class="disqus-comments">
@@ -223,8 +238,8 @@
   <script type="text/javascript">
     /* <![CDATA[ */
     var disqus_shortname = "hujkl";
-    var disqus_identifier = "http://jorge-auth.github.io_Overview of codeforces free education course";
-    var disqus_title = "Overview of codeforces free education course";
+    var disqus_identifier = "http://jorge-auth.github.io_Birdkeeper, goes opensource";
+    var disqus_title = "Birdkeeper, goes opensource";
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {
